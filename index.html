@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Fish Games Portfolio</title>
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-semibold mb-4">Lazy Fish Games Portfolio</h1>
+
+        <!-- Experience Section -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-2">Experience</h2>
+            <ul>
+                <li class="mb-2">
+                    <span class="font-semibold">Web/Game Development:</span> 5 years
+                </li>
+                <li class="mb-2">
+                    <span class="font-semibold">Pixel Art:</span> 1 month
+                </li>
+                <li class="mb-2">
+                    <span class="font-semibold">Icon Designing:</span> 4 years
+                </li>
+            </ul>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-2">Skills</h2>
+            <ul>
+                <li class="mb-2">HTML/CSS/JavaScript</li>
+                <li class="mb-2">Game Development with Pygame</li>
+                <li class="mb-2">Pixel Art Creation</li>
+                <li class="mb-2">Icon Designing with Figma</li>
+            </ul>
+        </div>
+
+        <!-- Projects Section -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-2">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-lg font-semibold mb-2">Website Project</h3>
+                    <p>A website developed using HTML, CSS, and JavaScript.</p>
+                    <a href="https://lazyfishgames.github.io/lfg-docs-writer text-style="blue">The Link</a>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-lg font-semibold mb-2">Coming Soon Project</h3>
+                    <p>🛠️COMING SOON🛠️</p>
+                </div>
+        <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-lg font-semibold mb-2">Coming Soon Project</h3>
+                    <p>🛠️COMING SOON🛠️</p>
+                </div>
+             <div class="bg-white p-4 rounded shadow">
+                    <h3 class="text-lg font-semibold mb-2">Coming Soon Project</h3>
+                    <p>🛠️COMING SOON🛠️</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="mb-8">
+            <h2 class="text-xl font-semibold mb-2">Contact</h2>
+            <p>If you'd like to get in touch, feel free to reach out:</p>
+            <ul class="list-disc ml-4">
+                <li>Email: skully@gmail.com</li>
+                <li>MORE SOON</li>
+            </ul>
+        </div>
+
+        <!-- Button to trigger JavaScript -->
+        <button id="messageBtn" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+            Click me to display a message
+        </button>
+
+        <!-- Footer Section -->
+        <footer class="bg-gray-800 text-white py-4">
+            <div class="container mx-auto text-center">
+                <p>&copy; 2024 Lazy Fish Games Portfolio. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+
+    <!-- JavaScript -->
+    <script>
+        // JavaScript code to display a message when button is clicked
+        const messageBtn = document.getElementById('messageBtn');
+        messageBtn.addEventListener('click', function() {
+            alert('Hello! This is a message from JavaScript.');
+        });
+    </script>
+</body>
+
+</html>
